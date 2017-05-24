@@ -1,0 +1,35 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 100vh;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 100;
+    font-family: Spoqa Han Sans;
+}
+a{
+    color: #6bd0ff;
+    text-decoration: none;
+    margin: 10px;
+}
+.active-page{
+    padding-left: 5px;
+    border-left: 3px lightblue solid;
+}
+a:hover{
+    color: #3981e6;
+}
+/* 각 페이지마다 배경이미지 변경 <- id 속성으롤 구분 */
+#travel{
+    background: url("../img/travel.jpg");
+    background-size: cover;
+}
+#spring{
+    background: url("../img/spring.jpg");
+    background-size: cover;
+}
+#summer{
+    background: url("../img/summer.jpg");
+    background-size: cover;
+}
