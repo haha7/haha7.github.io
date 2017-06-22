@@ -1,0 +1,65 @@
+
+html{
+    background: #fff;
+}
+body{
+    margin: 0;
+}
+
+.vignette{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle, #7e7e7e,#343434);
+}
+.album{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 287px;
+    height: 287px;
+    transform: translate(-50%, -50%);
+}
+.album-item{
+    position: absolute;
+}
+.album-item.cover{
+    z-index: 100;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .45);
+}
+
+.album-item.sleeve{
+    z-index: 10;
+    top: 0px;
+    right: 0px
+}
+
+.album-item.disk{
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+}
+
+/*
+* 앨범에 사용자가 마우스를 올린 상태(:hover)
+Mouse Over
+Mouse Enter
+*/
+.album .album-item{
+    transition: all 0.5s ease-out;
+}
+
+.album:hover .album-item.disk{
+    z-index: 1;
+    top: -5px;
+    right: -80px;
+}
+
+.album:hover .album-item.sleeve{
+    z-index: 10;
+    top: -5px;
+    right: -25px
+} 
