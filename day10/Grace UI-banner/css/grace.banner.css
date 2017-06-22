@@ -1,0 +1,82 @@
+/*! grace.banner.css @ 2017, yamoo9.net */
+
+/* -----------------------------------------------------------------------------
+ * 웹 폰트 모듈
+ * --------------------------------------------------------------------------- */
+.baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+.is-italic {
+  font-style: italic;
+}
+
+.montserrat {
+  font-weight: 300; /* Light */
+  font-family: 'Montserrat', sans-serif;
+}
+.is-bold {
+  font-weight: 700; /* Bold */
+}
+
+/* -----------------------------------------------------------------------------
+ * 배너 디자인
+ * --------------------------------------------------------------------------- */
+.grace-ui.banner {
+  width: 580px;
+  height: 215px;
+  background: #fff url("../images/people.png") no-repeat 88px 9px;
+  /*border: 1px solid #cdcdcd;*/
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.is-centerXY {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -107.5px;
+  margin-left: -290px;
+}
+
+.banner-category {
+  position: absolute;
+  margin: 100px 508px 106px 22px;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.banner-headline{
+  position: relative;
+  margin-top:31px;
+  margin-left: 374px;
+    color: #dba68f;
+    font-size: 36px;
+    line-height: 1.1111;
+}
+.banner-review{
+
+}
+.banner-review *{
+  font-size: 13px;
+  margin-left: 374px;
+}
+.banner-review .review-view {
+  background-image: url("./images/icon-view.svg") no-repeat 0 50%;
+}
+.banner-review .review-comments {
+  background-image: url("./images/icon-comments.svg") no-repeat 0 50%;
+}
+
+.banner-review-link{
+  position: absolute;
+  top: 124px;
+  left: 374px;
+  padding: 1em 1.5em 1.0714em; /* 14px 21px 15px */
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+  color: #fff;
+  background: #000;
+  border-radius: 20px;
+
+}

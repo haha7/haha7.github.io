@@ -1,0 +1,26 @@
+.box{
+    float: left;
+    margin-right: 2rem;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    font: 700 1.45rem Verdana;
+}
+.is-central{
+    text-align: center;
+    line-height: 200px;
+}
+
+.primary{
+ background: #fa2645;   
+}
+.secondary{
+ background: #fc8b9c;    
+}
+.tertiary{
+ background: #ad3d4e;
+}
+.quaternary{
+ background: #4e4e4e;
+}
+
